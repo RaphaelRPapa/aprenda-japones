@@ -1094,39 +1094,39 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-50 to-pink-100">
-      <header className="bg-white shadow-md">
-        <div className="max-w-7xl mx-auto px-4 py-4">
+            <header className="bg-white shadow-md">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 py-3 sm:py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+            <h1 className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
               日本語を学ぼう
             </h1>
-            <nav className="flex gap-4">
+            <nav className="flex gap-2 sm:gap-4">
               <button
                 onClick={() => { setCurrentPage('home'); setQuizMode(false); }}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg font-semibold transition-colors ${
+                className={`flex items-center gap-2 px-3 sm:px-4 py-2 rounded-lg font-semibold transition-colors ${
                   currentPage === 'home' ? 'bg-indigo-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
                 <Home className="w-5 h-5" />
-                Início
+                <span className="hidden sm:inline">Início</span>
               </button>
               <button
                 onClick={() => { setCurrentPage('learn'); setQuizMode(false); }}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg font-semibold transition-colors ${
+                className={`flex items-center gap-2 px-3 sm:px-4 py-2 rounded-lg font-semibold transition-colors ${
                   currentPage === 'learn' ? 'bg-indigo-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
                 <BookOpen className="w-5 h-5" />
-                Estudar
+                <span className="hidden sm:inline">Estudar</span>
               </button>
               <button
                 onClick={() => { setCurrentPage('stats'); setQuizMode(false); }}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg font-semibold transition-colors ${
+                className={`flex items-center gap-2 px-3 sm:px-4 py-2 rounded-lg font-semibold transition-colors ${
                   currentPage === 'stats' ? 'bg-indigo-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
                 <BarChart3 className="w-5 h-5" />
-                Estatísticas
+                <span className="hidden sm:inline">Estatísticas</span>
               </button>
             </nav>
           </div>
