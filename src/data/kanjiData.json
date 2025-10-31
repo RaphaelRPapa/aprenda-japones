@@ -163,6 +163,317 @@
       "examples": [
         { "word": "大学", "romaji": "daigaku", "meaning": "universidade" }
       ]
+    },
+    {
+      "char": "鎌",
+      "romaji": "kama",
+      "meaning": "foice",
+      "reading": "かま",
+      "examples": [
+        { "word": "鎌倉", "romaji": "Kamakura", "meaning": "Kamakura (cidade japonesa)" },
+        { "word": "草刈り鎌", "romaji": "kusakarigama", "meaning": "foice para cortar grama" }
+      ]
+    },
+    {
+      "char": "亀",
+      "romaji": "kame",
+      "meaning": "tartaruga",
+      "reading": "かめ",
+      "examples": [
+        { "word": "海亀", "romaji": "umigame", "meaning": "tartaruga marinha" },
+        { "word": "亀の甲", "romaji": "kame no kō", "meaning": "casco de tartaruga" }
+      ]
+    },
+    {
+      "char": "神",
+      "romaji": "kami",
+      "meaning": "deus",
+      "reading": "かみ",
+      "examples": [
+        { "word": "神社", "romaji": "jinja", "meaning": "santuário xintoísta" },
+        { "word": "神様", "romaji": "kamisama", "meaning": "deus; divindade" }
+      ]
+    },
+    {
+      "char": "雷",
+      "romaji": "kaminari",
+      "meaning": "raio; trovão",
+      "reading": "かみなり",
+      "examples": [
+        { "word": "雷雨", "romaji": "raiu", "meaning": "tempestade com trovões" },
+        { "word": "雷鳴", "romaji": "raimei", "meaning": "som do trovão" }
+      ]
+    },
+    {
+      "char": "小",
+      "romaji": "shou/chii",
+      "meaning": "pequeno",
+      "reading": "しょう/ちい",
+      "examples": [
+        { "word": "小さい", "romaji": "chiisai", "meaning": "pequeno" }
+      ]
+    },
+    {
+      "char": "中",
+      "romaji": "chuu/naka",
+      "meaning": "meio/dentro",
+      "reading": "ちゅう/なか",
+      "examples": [
+        { "word": "中国", "romaji": "chuugoku", "meaning": "China" }
+      ]
+    },
+    {
+      "char": "上",
+      "romaji": "ue/jou",
+      "meaning": "acima/sobre",
+      "reading": "うえ/じょう",
+      "examples": [
+        { "word": "上手", "romaji": "jouzu", "meaning": "habilidoso" }
+      ]
+    },
+    {
+      "char": "下",
+      "romaji": "shita/ge",
+      "meaning": "abaixo/baixo",
+      "reading": "した/げ",
+      "examples": [
+        { "word": "地下鉄", "romaji": "chikatetsu", "meaning": "metrô" }
+      ]
+    },
+    {
+      "char": "右",
+      "romaji": "migi/u",
+      "meaning": "direita",
+      "reading": "みぎ/う",
+      "examples": [
+        { "word": "右手", "romaji": "migite", "meaning": "mão direita" }
+      ]
+    },
+    {
+      "char": "左",
+      "romaji": "hidari/sa",
+      "meaning": "esquerda",
+      "reading": "ひだり/さ",
+      "examples": [
+        { "word": "左手", "romaji": "hidarite", "meaning": "mão esquerda" }
+      ]
+    },
+    {
+      "char": "名",
+      "romaji": "mei/na",
+      "meaning": "nome",
+      "reading": "めい/な",
+      "examples": [
+        { "word": "名前", "romaji": "namae", "meaning": "nome" }
+      ]
+    },
+    {
+      "char": "年",
+      "romaji": "nen/toshi",
+      "meaning": "ano",
+      "reading": "ねん/とし",
+      "examples": [
+        { "word": "今年", "romaji": "kotoshi", "meaning": "este ano" }
+      ]
+    },
+    {
+      "char": "時",
+      "romaji": "ji/toki",
+      "meaning": "tempo/hora",
+      "reading": "じ/とき",
+      "examples": [
+        { "word": "時間", "romaji": "jikan", "meaning": "tempo; hora" }
+      ]
+    },
+    {
+      "char": "分",
+      "romaji": "fun/bun",
+      "meaning": "minuto/parte",
+      "reading": "ふん/ぶん",
+      "examples": [
+        { "word": "五分", "romaji": "gofun", "meaning": "cinco minutos" }
+      ]
+    },
+    {
+      "char": "先",
+      "romaji": "sen/saki",
+      "meaning": "antes/futuro",
+      "reading": "せん/さき",
+      "examples": [
+        { "word": "先生", "romaji": "sensei", "meaning": "professor" }
+      ]
+    },
+    {
+      "char": "生",
+      "romaji": "sei/ikiru",
+      "meaning": "vida/nascer",
+      "reading": "せい/いきる",
+      "examples": [
+        { "word": "学生", "romaji": "gakusei", "meaning": "estudante" }
+      ]
+    },
+    {
+      "char": "学",
+      "romaji": "gaku/manabu",
+      "meaning": "estudo/aprender",
+      "reading": "がく/まなぶ",
+      "examples": [
+        { "word": "学校", "romaji": "gakkou", "meaning": "escola" }
+      ]
+    },
+    {
+      "char": "校",
+      "romaji": "kou",
+      "meaning": "escola",
+      "reading": "こう",
+      "examples": [
+        { "word": "中学校", "romaji": "chuugakkou", "meaning": "escola secundária" }
+      ]
+    },
+    {
+      "char": "車",
+      "romaji": "sha/kuruma",
+      "meaning": "carro",
+      "reading": "しゃ/くるま",
+      "examples": [
+        { "word": "電車", "romaji": "densha", "meaning": "trem" }
+      ]
+    },
+    {
+      "char": "電",
+      "romaji": "den",
+      "meaning": "eletricidade",
+      "reading": "でん",
+      "examples": [
+        { "word": "電話", "romaji": "denwa", "meaning": "telefone" }
+      ]
+    },
+    {
+      "char": "語",
+      "romaji": "go/kataru",
+      "meaning": "língua/falar",
+      "reading": "ご/かたる",
+      "examples": [
+        { "word": "日本語", "romaji": "nihongo", "meaning": "língua japonesa" }
+      ]
+    },
+    {
+      "char": "話",
+      "romaji": "wa/hanasu",
+      "meaning": "falar/conversa",
+      "reading": "わ/はなす",
+      "examples": [
+        { "word": "会話", "romaji": "kaiwa", "meaning": "diálogo" }
+      ]
+    },
+    {
+      "char": "聞",
+      "romaji": "bun/kiku",
+      "meaning": "ouvir/perguntar",
+      "reading": "ぶん/きく",
+      "examples": [
+        { "word": "新聞", "romaji": "shinbun", "meaning": "jornal" }
+      ]
+    },
+    {
+      "char": "食",
+      "romaji": "shoku/taberu",
+      "meaning": "comer",
+      "reading": "しょく/たべる",
+      "examples": [
+        { "word": "食べ物", "romaji": "tabemono", "meaning": "comida" }
+      ]
+    },
+    {
+      "char": "飲",
+      "romaji": "in/nomu",
+      "meaning": "beber",
+      "reading": "いん/のむ",
+      "examples": [
+        { "word": "飲み物", "romaji": "nomimono", "meaning": "bebida" }
+      ]
+    },
+    {
+      "char": "見",
+      "romaji": "ken/miru",
+      "meaning": "ver/olhar",
+      "reading": "けん/みる",
+      "examples": [
+        { "word": "見物", "romaji": "kenbutsu", "meaning": "passeio turístico" }
+      ]
+    },
+    {
+      "char": "行",
+      "romaji": "kou/iku",
+      "meaning": "ir",
+      "reading": "こう/いく",
+      "examples": [
+        { "word": "銀行", "romaji": "ginkou", "meaning": "banco" }
+      ]
+    },
+    {
+      "char": "来",
+      "romaji": "rai/kuru",
+      "meaning": "vir",
+      "reading": "らい/くる",
+      "examples": [
+        { "word": "来週", "romaji": "raishuu", "meaning": "semana que vem" }
+      ]
+    },
+    {
+      "char": "帰",
+      "romaji": "ki/kaeru",
+      "meaning": "voltar",
+      "reading": "き/かえる",
+      "examples": [
+        { "word": "帰国", "romaji": "kikoku", "meaning": "retorno ao país natal" }
+      ]
+    },
+    {
+      "char": "山",
+      "romaji": "san/yama",
+      "meaning": "montanha",
+      "reading": "さん/やま",
+      "examples": [
+        { "word": "富士山", "romaji": "fujisan", "meaning": "Monte Fuji" }
+      ]
+    },
+    {
+      "char": "川",
+      "romaji": "sen/kawa",
+      "meaning": "rio",
+      "reading": "せん/かわ",
+      "examples": [
+        { "word": "川辺", "romaji": "kawabe", "meaning": "margem do rio" }
+      ]
+    },
+    {
+      "char": "空",
+      "romaji": "kuu/sora",
+      "meaning": "céu/vazio",
+      "reading": "くう/そら",
+      "examples": [
+        { "word": "空港", "romaji": "kuukou", "meaning": "aeroporto" }
+      ]
+    },
+    {
+      "char": "天",
+      "romaji": "ten/ama",
+      "meaning": "céu/paraíso",
+      "reading": "てん/あま",
+      "examples": [
+        { "word": "天気", "romaji": "tenki", "meaning": "tempo (clima)" }
+      ]
+    },
+    {
+      "char": "気",
+      "romaji": "ki/ke",
+      "meaning": "espírito/sentimento",
+      "reading": "き/け",
+      "examples": [
+        { "word": "元気", "romaji": "genki", "meaning": "energético; saudável" }
+      ]
     }
   ]
+
   

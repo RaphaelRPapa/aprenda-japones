@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BookOpen, Brain, Trophy, BarChart3, Home, Play, CheckCircle, XCircle, Star, Volume2, Shuffle } from 'lucide-react';
+import WritingPractice from './components/WritingPractice';
 
 // ============= DADOS =============
 import hiraganaData from './data/hiraganaData.json';
@@ -49,14 +50,19 @@ const WordCard = ({ word, romaji, meaning, type, progress }) => {
 };
 
 // Componente de Card de Caractere
-const CharacterCard = ({ char, romaji, meaning, reading, examples, type, progress }) => {
-  const [showExamples, setShowExamples] = useState(false);
+const CharacterCard = ({ char, romaji, meaning, reading, examples, type, progress, onPractice }) => {
   const charKey = `${type}-${char}`;
   const charProgress = progress[charKey];
   const accuracy = charProgress ? Math.round((charProgress.correct / charProgress.attempts) * 100) : 0;
   
   return (
-    <div className="bg-white rounded-xl shadow-lg p-4 hover:shadow-xl transition-all">
+    <div
+      onClick={() => onPractice && onPractice()}
+      className="bg-white rounded-xl shadow-lg p-4 hover:shadow-xl transition-all cursor-pointer"
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => { if (e.key === 'Enter') onPractice && onPractice(); }}
+    >
       <div className="text-center">
         <div className="text-5xl font-bold mb-3 text-indigo-600">{char}</div>
         <div className="text-xl font-semibold text-gray-700 mb-1">{romaji}</div>
@@ -77,28 +83,7 @@ const CharacterCard = ({ char, romaji, meaning, reading, examples, type, progres
             </div>
           </div>
         )}
-
-        {examples && examples.length > 0 && (
-          <button
-            onClick={() => setShowExamples(!showExamples)}
-            className="mt-3 text-xs text-indigo-600 hover:text-indigo-800 font-semibold"
-          >
-            {showExamples ? '▲ Ocultar' : '▼ Ver exemplos'}
-          </button>
-        )}
       </div>
-
-      {showExamples && examples && (
-        <div className="mt-3 pt-3 border-t border-gray-200 space-y-2">
-          {examples.map((ex, idx) => (
-            <div key={idx} className="bg-indigo-50 p-2 rounded text-left">
-              <div className="font-bold text-indigo-900">{ex.word}</div>
-              <div className="text-xs text-gray-600">{ex.romaji}</div>
-              <div className="text-xs text-gray-700">{ex.meaning}</div>
-            </div>
-          ))}
-        </div>
-      )}
     </div>
   );
 };
@@ -490,6 +475,28 @@ const App = () => {
   const [userProgress, setUserProgress] = useState({});
   const [loading, setLoading] = useState(true);
 
+// estados
+const [practiceOpen, setPracticeOpen] = useState(false);
+const [practiceChar, setPracticeChar] = useState(null);
+const [practiceRomaji, setPracticeRomaji] = useState(null);
+const [practiceExamples, setPracticeExamples] = useState([]);
+
+// função para abrir (recebe examples)
+const openPractice = (char, romaji, examples = []) => {
+  setPracticeChar(char);
+  setPracticeRomaji(romaji || '');
+  setPracticeExamples(examples);
+  setPracticeOpen(true);
+};
+
+const closePractice = () => {
+  setPracticeOpen(false);
+  setPracticeChar(null);
+  setPracticeRomaji(null);
+  setPracticeExamples([]);
+};
+
+
   useEffect(() => {
     loadProgress();
   }, []);
@@ -627,7 +634,7 @@ const App = () => {
               >
                 <BookOpen className="w-12 h-12 mx-auto mb-4" />
                 <h2 className="text-2xl font-bold mb-2">Kanji</h2>
-                <p className="text-purple-100">20 kanjis básicos</p>
+                <p className="text-purple-100">54 kanjis básicos</p>
               </button>
             </div>
 
@@ -727,6 +734,7 @@ const App = () => {
                     examples={item.examples}
                     type={selectedType}
                     progress={userProgress}
+                    onPractice={() => openPractice(item.char, item.romaji, item.examples)}
                   />
                 ))
               )}
@@ -738,6 +746,17 @@ const App = () => {
             onStartQuiz={() => { setCurrentPage('learn'); startQuiz(); }}
           />
         ) : null}
+
+        {practiceOpen && (
+          <WritingPractice
+            char={practiceChar}
+            romaji={practiceRomaji}
+            examples={practiceExamples}
+            onClose={closePractice}
+          />
+        )}
+
+
       </main>
 
       <footer className="bg-white border-t border-gray-200 mt-12">
