@@ -106,7 +106,11 @@ const WritingPractice = ({ char, romaji, examples = [], onClose }) => {
 
   // Handlers de desenho (aplicam ao canvas drawRef)
   const startDrawing = (e) => {
-    e.preventDefault();
+    if (e.touches) {
+      // apenas para touch: não usar preventDefault
+    } else {
+      e.preventDefault();
+    }
     const canvas = drawRef.current;
     if (!canvas) return;
     const ctx = canvas.getContext('2d');
@@ -118,7 +122,7 @@ const WritingPractice = ({ char, romaji, examples = [], onClose }) => {
 
   const draw = (e) => {
     if (!isDrawing) return;
-    e.preventDefault();
+    if (!e.touches) e.preventDefault();
     const canvas = drawRef.current;
     if (!canvas) return;
     const ctx = canvas.getContext('2d');
@@ -146,6 +150,20 @@ const WritingPractice = ({ char, romaji, examples = [], onClose }) => {
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [onClose]);
+
+  // bloqueia scroll do body enquanto o popup está aberto
+  useEffect(() => {
+    // salva o estado atual do overflow
+    const originalOverflow = document.body.style.overflow;
+
+    // bloqueia scroll
+    document.body.style.overflow = 'hidden';
+
+    // ao desmontar, restaura o comportamento padrão
+    return () => {
+      document.body.style.overflow = originalOverflow;
+    };
+  }, []);
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
