@@ -1,0 +1,549 @@
+[
+    {
+      "char": "ア",
+      "romaji": "a",
+      "group": "vowels",
+      "examples": [
+        { "word": "アメリカ", "romaji": "amerika", "meaning": "América" }
+      ]
+    },
+    {
+      "char": "イ",
+      "romaji": "i",
+      "group": "vowels",
+      "examples": [
+        { "word": "イギリス", "romaji": "igirisu", "meaning": "Inglaterra" }
+      ]
+    },
+    {
+      "char": "ウ",
+      "romaji": "u",
+      "group": "vowels",
+      "examples": [
+        { "word": "ウイスキー", "romaji": "uisukii", "meaning": "whisky" }
+      ]
+    },
+    {
+      "char": "エ",
+      "romaji": "e",
+      "group": "vowels",
+      "examples": [
+        { "word": "エアコン", "romaji": "eakon", "meaning": "ar condicionado" }
+      ]
+    },
+    {
+      "char": "オ",
+      "romaji": "o",
+      "group": "vowels",
+      "examples": [
+        { "word": "オレンジ", "romaji": "orenji", "meaning": "laranja" }
+      ]
+    },
+    {
+      "char": "カ",
+      "romaji": "ka",
+      "group": "k",
+      "examples": [
+        { "word": "カメラ", "romaji": "kamera", "meaning": "câmera" },
+        { "word": "カレー", "romaji": "karee", "meaning": "curry" }
+      ]
+    },
+    {
+      "char": "キ",
+      "romaji": "ki",
+      "group": "k",
+      "examples": [
+        { "word": "キー", "romaji": "kii", "meaning": "chave" }
+      ]
+    },
+    {
+      "char": "ク",
+      "romaji": "ku",
+      "group": "k",
+      "examples": [
+        { "word": "クラス", "romaji": "kurasu", "meaning": "classe" }
+      ]
+    },
+    {
+      "char": "ケ",
+      "romaji": "ke",
+      "group": "k",
+      "examples": [
+        { "word": "ケーキ", "romaji": "keeki", "meaning": "bolo" }
+      ]
+    },
+    {
+      "char": "コ",
+      "romaji": "ko",
+      "group": "k",
+      "examples": [
+        { "word": "コーヒー", "romaji": "koohii", "meaning": "café" }
+      ]
+    },
+    {
+      "char": "ガ",
+      "romaji": "ga",
+      "group": "k",
+      "dakuten": true,
+      "examples": [
+        { "word": "ガソリン", "romaji": "gasorin", "meaning": "gasolina" }
+      ]
+    },
+    {
+      "char": "ギ",
+      "romaji": "gi",
+      "group": "k",
+      "dakuten": true,
+      "examples": [
+        { "word": "ギター", "romaji": "gitaa", "meaning": "guitarra" }
+      ]
+    },
+    {
+      "char": "グ",
+      "romaji": "gu",
+      "group": "k",
+      "dakuten": true,
+      "examples": [
+        { "word": "グループ", "romaji": "guruupu", "meaning": "grupo" }
+      ]
+    },
+    {
+      "char": "ゲ",
+      "romaji": "ge",
+      "group": "k",
+      "dakuten": true,
+      "examples": [
+        { "word": "ゲーム", "romaji": "geemu", "meaning": "jogo" }
+      ]
+    },
+    {
+      "char": "ゴ",
+      "romaji": "go",
+      "group": "k",
+      "dakuten": true,
+      "examples": [
+        { "word": "ゴール", "romaji": "gooru", "meaning": "gol" }
+      ]
+    },
+    {
+      "char": "サ",
+      "romaji": "sa",
+      "group": "s",
+      "examples": [
+        { "word": "サラダ", "romaji": "sarada", "meaning": "salada" }
+      ]
+    },
+    {
+      "char": "シ",
+      "romaji": "shi",
+      "group": "s",
+      "examples": [
+        { "word": "シャツ", "romaji": "shatsu", "meaning": "camisa" }
+      ]
+    },
+    {
+      "char": "ス",
+      "romaji": "su",
+      "group": "s",
+      "examples": [
+        { "word": "スポーツ", "romaji": "supootsu", "meaning": "esporte" }
+      ]
+    },
+    {
+      "char": "セ",
+      "romaji": "se",
+      "group": "s",
+      "examples": [
+        { "word": "セーター", "romaji": "seetaa", "meaning": "suéter" }
+      ]
+    },
+    {
+      "char": "ソ",
+      "romaji": "so",
+      "group": "s",
+      "examples": [
+        { "word": "ソース", "romaji": "soosu", "meaning": "molho" }
+      ]
+    },
+    {
+      "char": "ザ",
+      "romaji": "za",
+      "group": "s",
+      "dakuten": true
+    },
+    {
+      "char": "ジ",
+      "romaji": "ji",
+      "group": "s",
+      "dakuten": true,
+      "examples": [
+        { "word": "ジュース", "romaji": "juusu", "meaning": "suco" }
+      ]
+    },
+    {
+      "char": "ズ",
+      "romaji": "zu",
+      "group": "s",
+      "dakuten": true
+    },
+    {
+      "char": "ゼ",
+      "romaji": "ze",
+      "group": "s",
+      "dakuten": true
+    },
+    {
+      "char": "ゾ",
+      "romaji": "zo",
+      "group": "s",
+      "dakuten": true
+    },
+    {
+      "char": "タ",
+      "romaji": "ta",
+      "group": "t",
+      "examples": [
+        { "word": "タクシー", "romaji": "takushii", "meaning": "táxi" }
+      ]
+    },
+    {
+      "char": "チ",
+      "romaji": "chi",
+      "group": "t",
+      "examples": [
+        { "word": "チーズ", "romaji": "chiizu", "meaning": "queijo" }
+      ]
+    },
+    {
+      "char": "ツ",
+      "romaji": "tsu",
+      "group": "t",
+      "examples": [
+        { "word": "ツアー", "romaji": "tsuaa", "meaning": "tour" }
+      ]
+    },
+    {
+      "char": "テ",
+      "romaji": "te",
+      "group": "t",
+      "examples": [
+        { "word": "テレビ", "romaji": "terebi", "meaning": "televisão" }
+      ]
+    },
+    {
+      "char": "ト",
+      "romaji": "to",
+      "group": "t",
+      "examples": [
+        { "word": "トイレ", "romaji": "toire", "meaning": "banheiro" }
+      ]
+    },
+    {
+      "char": "ダ",
+      "romaji": "da",
+      "group": "t",
+      "dakuten": true
+    },
+    {
+      "char": "ヂ",
+      "romaji": "ji",
+      "group": "t",
+      "dakuten": true
+    },
+    {
+      "char": "ヅ",
+      "romaji": "zu",
+      "group": "t",
+      "dakuten": true
+    },
+    {
+      "char": "デ",
+      "romaji": "de",
+      "group": "t",
+      "dakuten": true,
+      "examples": [
+        { "word": "デパート", "romaji": "depaato", "meaning": "loja de departamentos" }
+      ]
+    },
+    {
+      "char": "ド",
+      "romaji": "do",
+      "group": "t",
+      "dakuten": true,
+      "examples": [
+        { "word": "ドア", "romaji": "doa", "meaning": "porta" }
+      ]
+    },
+    {
+      "char": "ナ",
+      "romaji": "na",
+      "group": "n",
+      "examples": [
+        { "word": "ナイフ", "romaji": "naifu", "meaning": "faca" }
+      ]
+    },
+    {
+      "char": "ニ",
+      "romaji": "ni",
+      "group": "n",
+      "examples": [
+        { "word": "ニュース", "romaji": "nyuusu", "meaning": "notícias" }
+      ]
+    },
+    {
+      "char": "ヌ",
+      "romaji": "nu",
+      "group": "n"
+    },
+    {
+      "char": "ネ",
+      "romaji": "ne",
+      "group": "n",
+      "examples": [
+        { "word": "ネクタイ", "romaji": "nekutai", "meaning": "gravata" }
+      ]
+    },
+    {
+      "char": "ノ",
+      "romaji": "no",
+      "group": "n",
+      "examples": [
+        { "word": "ノート", "romaji": "nooto", "meaning": "caderno" }
+      ]
+    },
+    {
+      "char": "ハ",
+      "romaji": "ha",
+      "group": "h",
+      "examples": [
+        { "word": "ハンバーガー", "romaji": "hanbaagaa", "meaning": "hambúrguer" }
+      ]
+    },
+    {
+      "char": "ヒ",
+      "romaji": "hi",
+      "group": "h",
+      "examples": [
+        { "word": "ヒーター", "romaji": "hiitaa", "meaning": "aquecedor" }
+      ]
+    },
+    {
+      "char": "フ",
+      "romaji": "fu",
+      "group": "h",
+      "examples": [
+        { "word": "フォーク", "romaji": "fooku", "meaning": "garfo" }
+      ]
+    },
+    {
+      "char": "ヘ",
+      "romaji": "he",
+      "group": "h"
+    },
+    {
+      "char": "ホ",
+      "romaji": "ho",
+      "group": "h",
+      "examples": [
+        { "word": "ホテル", "romaji": "hoteru", "meaning": "hotel" }
+      ]
+    },
+    {
+      "char": "バ",
+      "romaji": "ba",
+      "group": "h",
+      "dakuten": true,
+      "examples": [
+        { "word": "バス", "romaji": "basu", "meaning": "ônibus" }
+      ]
+    },
+    {
+      "char": "ビ",
+      "romaji": "bi",
+      "group": "h",
+      "dakuten": true,
+      "examples": [
+        { "word": "ビール", "romaji": "biiru", "meaning": "cerveja" }
+      ]
+    },
+    {
+      "char": "ブ",
+      "romaji": "bu",
+      "group": "h",
+      "dakuten": true,
+      "examples": [
+        { "word": "ブーツ", "romaji": "buutsu", "meaning": "botas" }
+      ]
+    },
+    {
+      "char": "ベ",
+      "romaji": "be",
+      "group": "h",
+      "dakuten": true,
+      "examples": [
+        { "word": "ベッド", "romaji": "beddo", "meaning": "cama" }
+      ]
+    },
+    {
+      "char": "ボ",
+      "romaji": "bo",
+      "group": "h",
+      "dakuten": true,
+      "examples": [
+        { "word": "ボール", "romaji": "booru", "meaning": "bola" }
+      ]
+    },
+    {
+      "char": "パ",
+      "romaji": "pa",
+      "group": "h",
+      "handakuten": true,
+      "examples": [
+        { "word": "パン", "romaji": "pan", "meaning": "pão" }
+      ]
+    },
+    {
+      "char": "ピ",
+      "romaji": "pi",
+      "group": "h",
+      "handakuten": true,
+      "examples": [
+        { "word": "ピアノ", "romaji": "piano", "meaning": "piano" }
+      ]
+    },
+    {
+      "char": "プ",
+      "romaji": "pu",
+      "group": "h",
+      "handakuten": true,
+      "examples": [
+        { "word": "プール", "romaji": "puuru", "meaning": "piscina" }
+      ]
+    },
+    {
+      "char": "ペ",
+      "romaji": "pe",
+      "group": "h",
+      "handakuten": true,
+      "examples": [
+        { "word": "ペン", "romaji": "pen", "meaning": "caneta" }
+      ]
+    },
+    {
+      "char": "ポ",
+      "romaji": "po",
+      "group": "h",
+      "handakuten": true,
+      "examples": [
+        { "word": "ポスト", "romaji": "posuto", "meaning": "caixa de correio" }
+      ]
+    },
+    {
+      "char": "マ",
+      "romaji": "ma",
+      "group": "m",
+      "examples": [
+        { "word": "マンション", "romaji": "manshon", "meaning": "apartamento" }
+      ]
+    },
+    {
+      "char": "ミ",
+      "romaji": "mi",
+      "group": "m",
+      "examples": [
+        { "word": "ミルク", "romaji": "miruku", "meaning": "leite" }
+      ]
+    },
+    {
+      "char": "ム",
+      "romaji": "mu",
+      "group": "m"
+    },
+    {
+      "char": "メ",
+      "romaji": "me",
+      "group": "m",
+      "examples": [
+        { "word": "メール", "romaji": "meeru", "meaning": "e-mail" }
+      ]
+    },
+    {
+      "char": "モ",
+      "romaji": "mo",
+      "group": "m"
+    },
+    {
+      "char": "ヤ",
+      "romaji": "ya",
+      "group": "y"
+    },
+    {
+      "char": "ユ",
+      "romaji": "yu",
+      "group": "y"
+    },
+    {
+      "char": "ヨ",
+      "romaji": "yo",
+      "group": "y",
+      "examples": [
+        { "word": "ヨーロッパ", "romaji": "yooroppa", "meaning": "Europa" }
+      ]
+    },
+    {
+      "char": "ラ",
+      "romaji": "ra",
+      "group": "r",
+      "examples": [
+        { "word": "ラジオ", "romaji": "rajio", "meaning": "rádio" }
+      ]
+    },
+    {
+      "char": "リ",
+      "romaji": "ri",
+      "group": "r",
+      "examples": [
+        { "word": "リンゴ", "romaji": "ringo", "meaning": "maçã" }
+      ]
+    },
+    {
+      "char": "ル",
+      "romaji": "ru",
+      "group": "r"
+    },
+    {
+      "char": "レ",
+      "romaji": "re",
+      "group": "r",
+      "examples": [
+        { "word": "レストラン", "romaji": "resutoran", "meaning": "restaurante" }
+      ]
+    },
+    {
+      "char": "ロ",
+      "romaji": "ro",
+      "group": "r"
+    },
+    {
+      "char": "ワ",
+      "romaji": "wa",
+      "group": "w",
+      "examples": [
+        { "word": "ワイン", "romaji": "wain", "meaning": "vinho" }
+      ]
+    },
+    {
+      "char": "ヲ",
+      "romaji": "wo",
+      "group": "w"
+    },
+    {
+      "char": "ン",
+      "romaji": "n",
+      "group": "n",
+      "examples": [
+        { "word": "レモン", "romaji": "remon", "meaning": "limão" }
+      ]
+    }
+  ]
+  

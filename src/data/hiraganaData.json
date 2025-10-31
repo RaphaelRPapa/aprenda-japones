@@ -1,0 +1,609 @@
+[
+    {
+      "char": "あ",
+      "romaji": "a",
+      "group": "vowels",
+      "examples": [
+        { "word": "あい", "romaji": "ai", "meaning": "amor" },
+        { "word": "あさ", "romaji": "asa", "meaning": "manhã" }
+      ]
+    },
+    {
+      "char": "い",
+      "romaji": "i",
+      "group": "vowels",
+      "examples": [
+        { "word": "いえ", "romaji": "ie", "meaning": "casa" },
+        { "word": "いぬ", "romaji": "inu", "meaning": "cachorro" }
+      ]
+    },
+    {
+      "char": "う",
+      "romaji": "u",
+      "group": "vowels",
+      "examples": [
+        { "word": "うみ", "romaji": "umi", "meaning": "mar" },
+        { "word": "うし", "romaji": "ushi", "meaning": "vaca" }
+      ]
+    },
+    {
+      "char": "え",
+      "romaji": "e",
+      "group": "vowels",
+      "examples": [
+        { "word": "えき", "romaji": "eki", "meaning": "estação" },
+        { "word": "えん", "romaji": "en", "meaning": "iene" }
+      ]
+    },
+    {
+      "char": "お",
+      "romaji": "o",
+      "group": "vowels",
+      "examples": [
+        { "word": "おと", "romaji": "oto", "meaning": "som" },
+        { "word": "おや", "romaji": "oya", "meaning": "pai" }
+      ]
+    },
+    {
+      "char": "か",
+      "romaji": "ka",
+      "group": "k",
+      "examples": [
+        { "word": "かお", "romaji": "kao", "meaning": "rosto" },
+        { "word": "かぎ", "romaji": "kagi", "meaning": "chave" }
+      ]
+    },
+    {
+      "char": "き",
+      "romaji": "ki",
+      "group": "k",
+      "examples": [
+        { "word": "きく", "romaji": "kiku", "meaning": "ouvir" },
+        { "word": "きた", "romaji": "kita", "meaning": "norte" }
+      ]
+    },
+    {
+      "char": "く",
+      "romaji": "ku",
+      "group": "k",
+      "examples": [
+        { "word": "くち", "romaji": "kuchi", "meaning": "boca" },
+        { "word": "くつ", "romaji": "kutsu", "meaning": "sapato" }
+      ]
+    },
+    {
+      "char": "け",
+      "romaji": "ke",
+      "group": "k",
+      "examples": [
+        { "word": "けむり", "romaji": "kemuri", "meaning": "fumaça" },
+        { "word": "けさ", "romaji": "kesa", "meaning": "esta manhã" }
+      ]
+    },
+    {
+      "char": "こ",
+      "romaji": "ko",
+      "group": "k",
+      "examples": [
+        { "word": "ここ", "romaji": "koko", "meaning": "aqui" },
+        { "word": "こえ", "romaji": "koe", "meaning": "voz" }
+      ]
+    },
+    {
+      "char": "が",
+      "romaji": "ga",
+      "group": "k",
+      "dakuten": true,
+      "examples": [
+        { "word": "がっこう", "romaji": "gakkou", "meaning": "escola" }
+      ]
+    },
+    {
+      "char": "ぎ",
+      "romaji": "gi",
+      "group": "k",
+      "dakuten": true,
+      "examples": [
+        { "word": "ぎんこう", "romaji": "ginkou", "meaning": "banco" }
+      ]
+    },
+    {
+      "char": "ぐ",
+      "romaji": "gu",
+      "group": "k",
+      "dakuten": true,
+      "examples": [
+        { "word": "ぐあい", "romaji": "guai", "meaning": "condição" }
+      ]
+    },
+    {
+      "char": "げ",
+      "romaji": "ge",
+      "group": "k",
+      "dakuten": true,
+      "examples": [
+        { "word": "げんき", "romaji": "genki", "meaning": "energia" }
+      ]
+    },
+    {
+      "char": "ご",
+      "romaji": "go",
+      "group": "k",
+      "dakuten": true,
+      "examples": [
+        { "word": "ごはん", "romaji": "gohan", "meaning": "arroz/refeição" }
+      ]
+    },
+    {
+      "char": "さ",
+      "romaji": "sa",
+      "group": "s",
+      "examples": [
+        { "word": "さけ", "romaji": "sake", "meaning": "saquê" },
+        { "word": "さくら", "romaji": "sakura", "meaning": "cerejeira" }
+      ]
+    },
+    {
+      "char": "し",
+      "romaji": "shi",
+      "group": "s",
+      "examples": [
+        { "word": "した", "romaji": "shita", "meaning": "embaixo" },
+        { "word": "しお", "romaji": "shio", "meaning": "sal" }
+      ]
+    },
+    {
+      "char": "す",
+      "romaji": "su",
+      "group": "s",
+      "examples": [
+        { "word": "すし", "romaji": "sushi", "meaning": "sushi" },
+        { "word": "すき", "romaji": "suki", "meaning": "gostar" }
+      ]
+    },
+    {
+      "char": "せ",
+      "romaji": "se",
+      "group": "s",
+      "examples": [
+        { "word": "せかい", "romaji": "sekai", "meaning": "mundo" },
+        { "word": "せなか", "romaji": "senaka", "meaning": "costas" }
+      ]
+    },
+    {
+      "char": "そ",
+      "romaji": "so",
+      "group": "s",
+      "examples": [
+        { "word": "そら", "romaji": "sora", "meaning": "céu" },
+        { "word": "そと", "romaji": "soto", "meaning": "fora" }
+      ]
+    },
+    {
+      "char": "ざ",
+      "romaji": "za",
+      "group": "s",
+      "dakuten": true,
+      "examples": [
+        { "word": "ざっし", "romaji": "zasshi", "meaning": "revista" }
+      ]
+    },
+    {
+      "char": "じ",
+      "romaji": "ji",
+      "group": "s",
+      "dakuten": true,
+      "examples": [
+        { "word": "じかん", "romaji": "jikan", "meaning": "tempo" }
+      ]
+    },
+    {
+      "char": "ず",
+      "romaji": "zu",
+      "group": "s",
+      "dakuten": true,
+      "examples": [
+        { "word": "ずっと", "romaji": "zutto", "meaning": "sempre" }
+      ]
+    },
+    {
+      "char": "ぜ",
+      "romaji": "ze",
+      "group": "s",
+      "dakuten": true,
+      "examples": [
+        { "word": "ぜんぶ", "romaji": "zenbu", "meaning": "tudo" }
+      ]
+    },
+    {
+      "char": "ぞ",
+      "romaji": "zo",
+      "group": "s",
+      "dakuten": true,
+      "examples": [
+        { "word": "ぞう", "romaji": "zou", "meaning": "elefante" }
+      ]
+    },
+    {
+      "char": "た",
+      "romaji": "ta",
+      "group": "t",
+      "examples": [
+        { "word": "たべる", "romaji": "taberu", "meaning": "comer" },
+        { "word": "たかい", "romaji": "takai", "meaning": "alto/caro" }
+      ]
+    },
+    {
+      "char": "ち",
+      "romaji": "chi",
+      "group": "t",
+      "examples": [
+        { "word": "ちず", "romaji": "chizu", "meaning": "mapa" },
+        { "word": "ちいさい", "romaji": "chiisai", "meaning": "pequeno" }
+      ]
+    },
+    {
+      "char": "つ",
+      "romaji": "tsu",
+      "group": "t",
+      "examples": [
+        { "word": "つき", "romaji": "tsuki", "meaning": "lua" },
+        { "word": "つくえ", "romaji": "tsukue", "meaning": "mesa" }
+      ]
+    },
+    {
+      "char": "て",
+      "romaji": "te",
+      "group": "t",
+      "examples": [
+        { "word": "て", "romaji": "te", "meaning": "mão" },
+        { "word": "てがみ", "romaji": "tegami", "meaning": "carta" }
+      ]
+    },
+    {
+      "char": "と",
+      "romaji": "to",
+      "group": "t",
+      "examples": [
+        { "word": "とり", "romaji": "tori", "meaning": "pássaro" },
+        { "word": "ととけい", "romaji": "tokei", "meaning": "relógio" }
+      ]
+    },
+    {
+      "char": "だ",
+      "romaji": "da",
+      "group": "t",
+      "dakuten": true,
+      "examples": [
+        { "word": "だれ", "romaji": "dare", "meaning": "quem" }
+      ]
+    },
+    {
+      "char": "ぢ",
+      "romaji": "ji",
+      "group": "t",
+      "dakuten": true
+    },
+    {
+      "char": "づ",
+      "romaji": "zu",
+      "group": "t",
+      "dakuten": true
+    },
+    {
+      "char": "で",
+      "romaji": "de",
+      "group": "t",
+      "dakuten": true,
+      "examples": [
+        { "word": "でんわ", "romaji": "denwa", "meaning": "telefone" }
+      ]
+    },
+    {
+      "char": "ど",
+      "romaji": "do",
+      "group": "t",
+      "dakuten": true,
+      "examples": [
+        { "word": "どこ", "romaji": "doko", "meaning": "onde" }
+      ]
+    },
+    {
+      "char": "な",
+      "romaji": "na",
+      "group": "n",
+      "examples": [
+        { "word": "なまえ", "romaji": "namae", "meaning": "nome" },
+        { "word": "なつ", "romaji": "natsu", "meaning": "verão" }
+      ]
+    },
+    {
+      "char": "に",
+      "romaji": "ni",
+      "group": "n",
+      "examples": [
+        { "word": "にく", "romaji": "niku", "meaning": "carne" },
+        { "word": "にわ", "romaji": "niwa", "meaning": "jardim" }
+      ]
+    },
+    {
+      "char": "ぬ",
+      "romaji": "nu",
+      "group": "n",
+      "examples": [
+        { "word": "ぬの", "romaji": "nuno", "meaning": "tecido" }
+      ]
+    },
+    {
+      "char": "ね",
+      "romaji": "ne",
+      "group": "n",
+      "examples": [
+        { "word": "ねこ", "romaji": "neko", "meaning": "gato" },
+        { "word": "ねる", "romaji": "neru", "meaning": "dormir" }
+      ]
+    },
+    {
+      "char": "の",
+      "romaji": "no",
+      "group": "n",
+      "examples": [
+        { "word": "のむ", "romaji": "nomu", "meaning": "beber" }
+      ]
+    },
+    {
+      "char": "は",
+      "romaji": "ha",
+      "group": "h",
+      "examples": [
+        { "word": "はな", "romaji": "hana", "meaning": "flor/nariz" },
+        { "word": "はし", "romaji": "hashi", "meaning": "ponte/hashi" }
+      ]
+    },
+    {
+      "char": "ひ",
+      "romaji": "hi",
+      "group": "h",
+      "examples": [
+        { "word": "ひと", "romaji": "hito", "meaning": "pessoa" },
+        { "word": "ひ", "romaji": "hi", "meaning": "sol/dia" }
+      ]
+    },
+    {
+      "char": "ふ",
+      "romaji": "fu",
+      "group": "h",
+      "examples": [
+        { "word": "ふゆ", "romaji": "fuyu", "meaning": "inverno" },
+        { "word": "ふね", "romaji": "fune", "meaning": "barco" }
+      ]
+    },
+    {
+      "char": "へ",
+      "romaji": "he",
+      "group": "h",
+      "examples": [
+        { "word": "へや", "romaji": "heya", "meaning": "quarto" }
+      ]
+    },
+    {
+      "char": "ほ",
+      "romaji": "ho",
+      "group": "h",
+      "examples": [
+        { "word": "ほん", "romaji": "hon", "meaning": "livro" },
+        { "word": "ほし", "romaji": "hoshi", "meaning": "estrela" }
+      ]
+    },
+    {
+      "char": "ば",
+      "romaji": "ba",
+      "group": "h",
+      "dakuten": true,
+      "examples": [
+        { "word": "ばん", "romaji": "ban", "meaning": "noite" }
+      ]
+    },
+    {
+      "char": "び",
+      "romaji": "bi",
+      "group": "h",
+      "dakuten": true,
+      "examples": [
+        { "word": "びじん", "romaji": "bijin", "meaning": "pessoa bonita" }
+      ]
+    },
+    {
+      "char": "ぶ",
+      "romaji": "bu",
+      "group": "h",
+      "dakuten": true,
+      "examples": [
+        { "word": "ぶた", "romaji": "buta", "meaning": "porco" }
+      ]
+    },
+    {
+      "char": "べ",
+      "romaji": "be",
+      "group": "h",
+      "dakuten": true,
+      "examples": [
+        { "word": "べんきょう", "romaji": "benkyou", "meaning": "estudo" }
+      ]
+    },
+    {
+      "char": "ぼ",
+      "romaji": "bo",
+      "group": "h",
+      "dakuten": true,
+      "examples": [
+        { "word": "ぼく", "romaji": "boku", "meaning": "eu (masculino)" }
+      ]
+    },
+    {
+      "char": "ぱ",
+      "romaji": "pa",
+      "group": "h",
+      "handakuten": true,
+      "examples": [
+        { "word": "ぱん", "romaji": "pan", "meaning": "pão" }
+      ]
+    },
+    {
+      "char": "ぴ",
+      "romaji": "pi",
+      "group": "h",
+      "handakuten": true
+    },
+    {
+      "char": "ぷ",
+      "romaji": "pu",
+      "group": "h",
+      "handakuten": true
+    },
+    {
+      "char": "ぺ",
+      "romaji": "pe",
+      "group": "h",
+      "handakuten": true
+    },
+    {
+      "char": "ぽ",
+      "romaji": "po",
+      "group": "h",
+      "handakuten": true
+    },
+    {
+      "char": "ま",
+      "romaji": "ma",
+      "group": "m",
+      "examples": [
+        { "word": "まち", "romaji": "machi", "meaning": "cidade" },
+        { "word": "まど", "romaji": "mado", "meaning": "janela" }
+      ]
+    },
+    {
+      "char": "み",
+      "romaji": "mi",
+      "group": "m",
+      "examples": [
+        { "word": "みず", "romaji": "mizu", "meaning": "água" },
+        { "word": "みち", "romaji": "michi", "meaning": "caminho" }
+      ]
+    },
+    {
+      "char": "む",
+      "romaji": "mu",
+      "group": "m",
+      "examples": [
+        { "word": "むし", "romaji": "mushi", "meaning": "inseto" }
+      ]
+    },
+    {
+      "char": "め",
+      "romaji": "me",
+      "group": "m",
+      "examples": [
+        { "word": "め", "romaji": "me", "meaning": "olho" }
+      ]
+    },
+    {
+      "char": "も",
+      "romaji": "mo",
+      "group": "m",
+      "examples": [
+        { "word": "もの", "romaji": "mono", "meaning": "coisa" }
+      ]
+    },
+    {
+      "char": "や",
+      "romaji": "ya",
+      "group": "y",
+      "examples": [
+        { "word": "やま", "romaji": "yama", "meaning": "montanha" },
+        { "word": "やすい", "romaji": "yasui", "meaning": "barato" }
+      ]
+    },
+    {
+      "char": "ゆ",
+      "romaji": "yu",
+      "group": "y",
+      "examples": [
+        { "word": "ゆき", "romaji": "yuki", "meaning": "neve" },
+        { "word": "ゆめ", "romaji": "yume", "meaning": "sonho" }
+      ]
+    },
+    {
+      "char": "よ",
+      "romaji": "yo",
+      "group": "y",
+      "examples": [
+        { "word": "よる", "romaji": "yoru", "meaning": "noite" }
+      ]
+    },
+    {
+      "char": "ら",
+      "romaji": "ra",
+      "group": "r",
+      "examples": [
+        { "word": "らいねん", "romaji": "rainen", "meaning": "ano que vem" }
+      ]
+    },
+    {
+      "char": "り",
+      "romaji": "ri",
+      "group": "r",
+      "examples": [
+        { "word": "りんご", "romaji": "ringo", "meaning": "maçã" }
+      ]
+    },
+    {
+      "char": "る",
+      "romaji": "ru",
+      "group": "r",
+      "examples": [
+        { "word": "るす", "romaji": "rusu", "meaning": "ausente" }
+      ]
+    },
+    {
+      "char": "れ",
+      "romaji": "re",
+      "group": "r",
+      "examples": [
+        { "word": "れいぞうこ", "romaji": "reizouko", "meaning": "geladeira" }
+      ]
+    },
+    {
+      "char": "ろ",
+      "romaji": "ro",
+      "group": "r",
+      "examples": [
+        { "word": "ろく", "romaji": "roku", "meaning": "seis" }
+      ]
+    },
+    {
+      "char": "わ",
+      "romaji": "wa",
+      "group": "w",
+      "examples": [
+        { "word": "わたし", "romaji": "watashi", "meaning": "eu" }
+      ]
+    },
+    {
+      "char": "を",
+      "romaji": "wo",
+      "group": "w",
+      "examples": [
+        { "word": "ほんを", "romaji": "hon wo", "meaning": "o livro (partícula)" }
+      ]
+    },
+    {
+      "char": "ん",
+      "romaji": "n",
+      "group": "n",
+      "examples": [
+        { "word": "ほん", "romaji": "hon", "meaning": "livro" }
+      ]
+    }
+  ]
+  

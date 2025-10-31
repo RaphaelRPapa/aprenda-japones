@@ -1,0 +1,168 @@
+[
+    {
+      "char": "一",
+      "romaji": "ichi",
+      "meaning": "um",
+      "reading": "いち",
+      "examples": [
+        { "word": "一つ", "romaji": "hitotsu", "meaning": "um (contador)" }
+      ]
+    },
+    {
+      "char": "二",
+      "romaji": "ni",
+      "meaning": "dois",
+      "reading": "に",
+      "examples": [
+        { "word": "二つ", "romaji": "futatsu", "meaning": "dois (contador)" }
+      ]
+    },
+    {
+      "char": "三",
+      "romaji": "san",
+      "meaning": "três",
+      "reading": "さん",
+      "examples": [
+        { "word": "三つ", "romaji": "mittsu", "meaning": "três (contador)" }
+      ]
+    },
+    {
+      "char": "四",
+      "romaji": "shi/yon",
+      "meaning": "quatro",
+      "reading": "し/よん",
+      "examples": [
+        { "word": "四つ", "romaji": "yottsu", "meaning": "quatro (contador)" }
+      ]
+    },
+    {
+      "char": "五",
+      "romaji": "go",
+      "meaning": "cinco",
+      "reading": "ご",
+      "examples": [
+        { "word": "五つ", "romaji": "itsutsu", "meaning": "cinco (contador)" }
+      ]
+    },
+    {
+      "char": "六",
+      "romaji": "roku",
+      "meaning": "seis",
+      "reading": "ろく"
+    },
+    {
+      "char": "七",
+      "romaji": "shichi/nana",
+      "meaning": "sete",
+      "reading": "しち/なな"
+    },
+    {
+      "char": "八",
+      "romaji": "hachi",
+      "meaning": "oito",
+      "reading": "はち"
+    },
+    {
+      "char": "九",
+      "romaji": "kyuu/ku",
+      "meaning": "nove",
+      "reading": "きゅう/く"
+    },
+    {
+      "char": "十",
+      "romaji": "juu",
+      "meaning": "dez",
+      "reading": "じゅう"
+    },
+    {
+      "char": "日",
+      "romaji": "nichi/hi",
+      "meaning": "dia/sol",
+      "reading": "にち/ひ",
+      "examples": [
+        { "word": "今日", "romaji": "kyou", "meaning": "hoje" }
+      ]
+    },
+    {
+      "char": "月",
+      "romaji": "getsu/tsuki",
+      "meaning": "mês/lua",
+      "reading": "げつ/つき",
+      "examples": [
+        { "word": "一月", "romaji": "ichigatsu", "meaning": "janeiro" }
+      ]
+    },
+    {
+      "char": "火",
+      "romaji": "ka/hi",
+      "meaning": "fogo",
+      "reading": "か/ひ",
+      "examples": [
+        { "word": "火曜日", "romaji": "kayoubi", "meaning": "terça-feira" }
+      ]
+    },
+    {
+      "char": "水",
+      "romaji": "sui/mizu",
+      "meaning": "água",
+      "reading": "すい/みず",
+      "examples": [
+        { "word": "水曜日", "romaji": "suiyoubi", "meaning": "quarta-feira" }
+      ]
+    },
+    {
+      "char": "木",
+      "romaji": "moku/ki",
+      "meaning": "árvore",
+      "reading": "もく/き",
+      "examples": [
+        { "word": "木曜日", "romaji": "mokuyoubi", "meaning": "quinta-feira" }
+      ]
+    },
+    {
+      "char": "金",
+      "romaji": "kin/kane",
+      "meaning": "ouro/dinheiro",
+      "reading": "きん/かね",
+      "examples": [
+        { "word": "金曜日", "romaji": "kinyoubi", "meaning": "sexta-feira" }
+      ]
+    },
+    {
+      "char": "土",
+      "romaji": "do/tsuchi",
+      "meaning": "terra",
+      "reading": "ど/つち",
+      "examples": [
+        { "word": "土曜日", "romaji": "doyoubi", "meaning": "sábado" }
+      ]
+    },
+    {
+      "char": "人",
+      "romaji": "jin/hito",
+      "meaning": "pessoa",
+      "reading": "じん/ひと",
+      "examples": [
+        { "word": "日本人", "romaji": "nihonjin", "meaning": "japonês (pessoa)" }
+      ]
+    },
+    {
+      "char": "本",
+      "romaji": "hon",
+      "meaning": "livro/origem",
+      "reading": "ほん",
+      "examples": [
+        { "word": "日本", "romaji": "nihon", "meaning": "Japão" }
+      ]
+    },
+    {
+      "char": "大",
+      "romaji": "dai/oo",
+      "meaning": "grande",
+      "reading": "だい/おお",
+      "examples": [
+        { "word": "大学", "romaji": "daigaku", "meaning": "universidade" }
+      ]
+    }
+  ]
+  
